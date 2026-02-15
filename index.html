@@ -10,13 +10,13 @@
     <meta property="og:image" content="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg">
     <meta property="og:url" content="https://www.ninacarducci.photo">
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./assets/maugallery.js"></script>
+    <script src="./assets/maugallery.min.js"></script>
     <script src="./assets/scripts.js"></script>
 </head>
 <body>
@@ -153,14 +153,14 @@
                     <h2>Nous contacter</h2>
                     <p>Une question ? Une demande de devis ? N'hésitez pas à m'écrire ! Je vous répondrai en moins de 24 heures.</p>
                     <form action="" method="post">
-                        <label for="nom">Nom</label>
-                        <input type="text" name="nom" id="nom" required>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                        <button type="submit" class="btn">Envoyer</button>
-                    </form>
+				<label>Nom</label>
+				<input type="text" name="nom" id="nom">
+				<label>Email</label>
+				<input type="email" name="email" id="email">
+				<label>Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<input type="submit" value="Envoyer"/>
+			</form>
                 </div>
                 <div class="picture right">
                     <img src="./assets/images/camera.webp" alt="Appareil photo professionnel Canon">
